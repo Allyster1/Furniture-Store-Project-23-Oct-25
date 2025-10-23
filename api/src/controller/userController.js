@@ -15,10 +15,14 @@ userController.post("/register", async (req, res) => {
 userController.post("/login", async (req, res) => {
    const { email, password } = req.body;
 
-   const result = await userService.register(email, password);
+   try {
+      const result = await userService.login(email, password);
 
-   // TODO: Return data for login
-   res.status(201).end();
+      res.status(201).json(result);
+   } catch (err) {
+      // Extract error message
+      res.status(401).json({ message: err.message });
+   }
 });
 
 export default userController;

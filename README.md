@@ -32,9 +32,10 @@ SoftUni JS Back End Course Project
 -  [x] Hash password on register
 -  [x] Add login endpoint and service
 -  [x] verify login credentials
--  [] Generate and Return token
+-  [x] Generate and Return token `npm i jsonwebtoken`
 
 ## Bonus
 
+-  [x] Use env variables `npm i dotenv`
 -  [] use build with vite
 -  [] Refactor services
