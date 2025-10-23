@@ -40,8 +40,10 @@ SoftUni JS Back End Course Project
 ## Furniture endpoints
 
 -  [x] Add furniture model
--  [] Add furniture service
--  [] Create furniture endpoint
+-  [x] Add furniture service
+-  [x] Create furniture endpoint
+
+## Error Handling
 
 ## Bonus
 
