@@ -5,3 +5,5 @@ SoftUni JS Back End Course Project
 ## Initial setup
 
 -  [x] Create repository
+-  [x] Initial folder structure
+-  [x] Add client resources and install dependancies `cd client` `npm i`
