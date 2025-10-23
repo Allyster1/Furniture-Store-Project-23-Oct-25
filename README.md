@@ -30,6 +30,9 @@ SoftUni JS Back End Course Project
 -  [x] Add user service with register method
 -  [x] Install bcrypt `npm i bcrypt`
 -  [x] Hash password on register
+-  [x] Add login endpoint and service
+-  [x] verify login credentials
+-  [] Generate and Return token
 
 ## Bonus
 

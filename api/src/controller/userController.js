@@ -12,4 +12,13 @@ userController.post("/register", async (req, res) => {
    res.status(201).end();
 });
 
+userController.post("/login", async (req, res) => {
+   const { email, password } = req.body;
+
+   const result = await userService.register(email, password);
+
+   // TODO: Return data for login
+   res.status(201).end();
+});
+
 export default userController;
