@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import "dotenv/config";
 
 import routes from "./routes.js";
+import { authMiddleware } from "./middlewares/authMiddleware.js";
 
 const app = express();
 
@@ -17,10 +18,16 @@ try {
    console.error(err.message);
 }
 
+// Add cors
 app.use(cors());
 
+// Add JSON parser
 app.use(express.json());
 
+// Add auth middleware
+app.use(authMiddleware);
+
+// Add routes
 app.use(routes);
 
 app.listen(3030, () => console.log("Server is running on port http://localhost:3030...."));
