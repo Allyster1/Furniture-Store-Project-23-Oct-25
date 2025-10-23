@@ -24,7 +24,12 @@ SoftUni JS Back End Course Project
 
 -  [x] Create auth controller
 -  [x] Add json parser
--  [] register user
+-  [x] Add register endpoint
+-  [] Add database `npm i mongoose`
+-  [] Add user model
+-  [] Add user service with register method
+-  [] Install bcrypt `npm i bcrypt`
+-  [] Hash password on register
 
 ## Bonus
 
