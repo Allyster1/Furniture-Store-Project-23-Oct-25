@@ -27,10 +27,11 @@ SoftUni JS Back End Course Project
 -  [x] Add register endpoint
 -  [x] Add database and config `npm i mongoose`
 -  [x] Add user model
--  [] Add user service with register method
+-  [x] Add user service with register method
 -  [] Install bcrypt `npm i bcrypt`
 -  [] Hash password on register
 
 ## Bonus
 
 -  [] use build with vite
+-  [] Refactor services
