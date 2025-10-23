@@ -37,6 +37,12 @@ SoftUni JS Back End Course Project
 -  [x] Create logout
 -  [x] Add auth middleware
 
+## Furniture endpoints
+
+-  [x] Add furniture model
+-  [] Add furniture service
+-  [] Create furniture endpoint
+
 ## Bonus
 
 -  [x] Use env variables `npm i dotenv`
