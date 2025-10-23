@@ -34,7 +34,7 @@ SoftUni JS Back End Course Project
 -  [x] verify login credentials
 -  [x] Generate and Return token `npm i jsonwebtoken`
 -  [x] Auto login after register
--  [] Create logout
+-  [x] Create logout
 -  [] Add auth middleware
 
 ## Bonus
@@ -42,3 +42,4 @@ SoftUni JS Back End Course Project
 -  [x] Use env variables `npm i dotenv`
 -  [] use build with vite
 -  [] Refactor services
+-  [] Invalidate token
