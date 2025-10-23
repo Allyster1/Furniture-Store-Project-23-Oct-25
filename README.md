@@ -28,8 +28,8 @@ SoftUni JS Back End Course Project
 -  [x] Add database and config `npm i mongoose`
 -  [x] Add user model
 -  [x] Add user service with register method
--  [] Install bcrypt `npm i bcrypt`
--  [] Hash password on register
+-  [x] Install bcrypt `npm i bcrypt`
+-  [x] Hash password on register
 
 ## Bonus
 
