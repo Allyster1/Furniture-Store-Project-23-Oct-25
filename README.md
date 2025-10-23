@@ -42,6 +42,7 @@ SoftUni JS Back End Course Project
 -  [x] Add furniture model
 -  [x] Add furniture service
 -  [x] Create furniture endpoint
+-  [x] Get all furnitures
 
 ## Error Handling
 

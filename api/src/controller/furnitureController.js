@@ -4,8 +4,10 @@ import furnitureService from "../services/furnitureService.js";
 
 const furnitureController = Router();
 
-furnitureController.get("/", (req, res) => {
-   res.json([]);
+furnitureController.get("/", async (req, res) => {
+   const furnitures = await furnitureService.getAll();
+
+   res.json(furnitures || []);
 });
 
 furnitureController.post("/", async (req, res) => {
