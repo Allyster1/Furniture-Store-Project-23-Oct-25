@@ -13,6 +13,11 @@ SoftUni JS Back End Course Project
 -  [x] Install vite (local development server) `npm i vite`
 -  [x] Setup vite
 
+## Setup REST API
+
+-  [x] initialize project and add .gitignore
+-  [x] Install and setup express
+
 ## Bonus
 
 -  [] use build with vite
