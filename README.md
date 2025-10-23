@@ -20,6 +20,10 @@ SoftUni JS Back End Course Project
 -  [x] Add cors
 -  [x] Add furniture controller
 
+## Authentication and Authorization
+
+-  [x] Create auth controller
+
 ## Bonus
 
 -  [] use build with vite
