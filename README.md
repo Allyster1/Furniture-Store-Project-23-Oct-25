@@ -17,6 +17,8 @@ SoftUni JS Back End Course Project
 
 -  [x] initialize project and add .gitignore
 -  [x] Install and setup express
+-  [x] Add cors
+-  [x] Add furniture controller
 
 ## Bonus
 
