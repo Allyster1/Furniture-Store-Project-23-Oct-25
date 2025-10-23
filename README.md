@@ -7,3 +7,12 @@ SoftUni JS Back End Course Project
 -  [x] Create repository
 -  [x] Initial folder structure
 -  [x] Add client resources and install dependancies `cd client` `npm i`
+
+## Startup Client
+
+-  [x] Install vite (local development server) `npm i vite`
+-  [x] Setup vite
+
+## Bonus
+
+-  [] use build with vite
