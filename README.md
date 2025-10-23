@@ -33,6 +33,9 @@ SoftUni JS Back End Course Project
 -  [x] Add login endpoint and service
 -  [x] verify login credentials
 -  [x] Generate and Return token `npm i jsonwebtoken`
+-  [x] Auto login after register
+-  [] Create logout
+-  [] Add auth middleware
 
 ## Bonus
 
