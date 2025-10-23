@@ -23,6 +23,8 @@ SoftUni JS Back End Course Project
 ## Authentication and Authorization
 
 -  [x] Create auth controller
+-  [x] Add json parser
+-  [] register user
 
 ## Bonus
 
