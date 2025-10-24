@@ -52,6 +52,9 @@ SoftUni JS Back End Course Project
 
 ## Error Handling
 
+-  [x] Create error util for message
+-  [] Global Error Handler
+
 ## Bonus
 
 -  [x] Use env variables `npm i dotenv`

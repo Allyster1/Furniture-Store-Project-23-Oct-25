@@ -1,6 +1,8 @@
 import { Router } from "express";
 import querystring from "querystring";
+
 import furnitureService from "../services/furnitureService.js";
+import { getErrorMesage } from "../utils/errorUtils.js";
 
 const furnitureController = Router();
 
@@ -19,12 +21,15 @@ furnitureController.get("/", async (req, res) => {
 
 furnitureController.post("/", async (req, res) => {
    const furnitureData = req.body;
-
    const ownerId = req.user.id;
 
-   const furniture = await furnitureService.create(furnitureData, ownerId);
+   try {
+      const furniture = await furnitureService.create(furnitureData, ownerId);
 
-   res.status(201).json(furniture);
+      res.status(201).json(furniture);
+   } catch (err) {
+      res.status(400).json({ message: getErrorMesage(err) });
+   }
 });
 
 furnitureController.get("/:furnitureId", async (req, res) => {

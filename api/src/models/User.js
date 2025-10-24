@@ -8,6 +8,7 @@ const userSchema = new Schema({
    },
    password: {
       type: String,
+      minLength: [6, "Password is too short"],
       required: [true, "Password is required!"],
    },
 });
