@@ -59,5 +59,5 @@ SoftUni JS Back End Course Project
 
 -  [x] Use env variables `npm i dotenv`
 -  [x] use build with vite - bundler for deployment to take less space and server better
--  [] Refactor services
+-  [x] Refactor services
 -  [] Invalidate token
