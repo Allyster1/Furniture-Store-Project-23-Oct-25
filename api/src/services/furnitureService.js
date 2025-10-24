@@ -9,9 +9,12 @@ export default {
       });
    },
    getOne(furnitureId) {
-    return Furniture.findById(furnitureId)
+      return Furniture.findById(furnitureId);
    },
-   create(furnitureData) {
-      return Furniture.create(furnitureData);
+   create(furnitureData, ownerId) {
+      return Furniture.create({
+         ...furnitureData,
+         _ownerId: ownerId,
+      });
    },
 };

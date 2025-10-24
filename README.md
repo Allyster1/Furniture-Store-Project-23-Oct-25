@@ -44,7 +44,8 @@ SoftUni JS Back End Course Project
 -  [x] Create furniture endpoint
 -  [x] Get all furnitures
 -  [x] Select only needed information for catalog
--  [x] Create details endpoint and service
+-  [x] Create details endpoint
+-  [x] Add owner relation to furniture model
 
 ## Error Handling
 
