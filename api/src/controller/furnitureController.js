@@ -44,9 +44,10 @@ furnitureController.put("/:furnitureId", async (req, res) => {
 
 furnitureController.delete("/:furnitureId", async (req, res) => {
    const furnitureId = req.params.furnitureId;
+   const userId = req.user.id;
 
    try {
-      const funiture = await furnitureService.delete(furnitureId);
+      const funiture = await furnitureService.delete(furnitureId, userId);
 
       res.json(funiture);
    } catch (err) {

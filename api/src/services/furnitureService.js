@@ -20,7 +20,8 @@ export default {
    update(furnitureId, furnitureData) {
       return Furniture.findByIdAndUpdate(furnitureId, furnitureData, { runValidators: true });
    },
-   delete(furnitureId) {
-      return Furniture.findOneAndDelete(furnitureId);
+   delete(furnitureId, userId) {
+      // return Furniture.findOneAndDelete(furnitureId);
+      return Furniture.deleteOne({ id: furnitureId, _ownerId: userId });
    },
 };

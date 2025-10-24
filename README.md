@@ -48,6 +48,7 @@ SoftUni JS Back End Course Project
 -  [x] Add owner relation to furniture model
 -  [x] Edit furniture endpoint
 -  [x] Delete furniture endpoint
+- [] 
 
 ## Error Handling
 
